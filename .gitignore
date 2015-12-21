@@ -1,0 +1,9 @@
+*.ipch
+*.sdf
+*.opensdf
+*.ilk
+vs2015/Debug
+vs2015/Release
+vs2015/.vs
+tmp
+bin

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\Event.cpp" />
+    <ClCompile Include="..\src\GameObject.cpp" />
+    <ClCompile Include="..\src\GameState.cpp" />
+    <ClCompile Include="..\src\GameStateManager.cpp" />
+    <ClCompile Include="..\src\InputComponent.cpp" />
+    <ClCompile Include="..\src\InputManager.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="../src/stdafx.cpp" />
+    <ClCompile Include="..\src\Projectile.cpp" />
+    <ClCompile Include="..\src\RenderComponent.cpp" />
+    <ClCompile Include="..\src\Renderer.cpp" />
+    <ClCompile Include="..\src\SpriteComponent.cpp" />
+    <ClCompile Include="..\src\NLTmxMap.cpp" />
+    <ClCompile Include="..\src\SpriteManager.cpp" />
+    <ClCompile Include="..\src\LayerComponent.cpp" />
+    <ClCompile Include="..\src\RigidBodyComponent.cpp" />
+    <ClCompile Include="..\src\PhysicsManager.cpp" />
+    <ClCompile Include="..\src\PhysicsComponent.cpp" />
+    <ClCompile Include="..\src\HealthComponent.cpp" />
+    <ClCompile Include="..\src\BorderManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="../src/stdafx.h" />
+    <ClInclude Include="../src/targetver.h" />
+    <ClInclude Include="..\src\Component.h" />
+    <ClInclude Include="..\src\Event.h" />
+    <ClInclude Include="..\src\GameObject.h" />
+    <ClInclude Include="..\src\GameState.h" />
+    <ClInclude Include="..\src\GameStateManager.h" />
+    <ClInclude Include="..\src\InputComponent.h" />
+    <ClInclude Include="..\src\InputEventEnum.h" />
+    <ClInclude Include="..\src\InputManager.h" />
+    <ClInclude Include="..\src\Projectile.h" />
+    <ClInclude Include="..\src\RenderComponent.h" />
+    <ClInclude Include="..\src\Renderer.h" />
+    <ClInclude Include="..\src\SpriteComponent.h" />
+    <ClInclude Include="..\src\NLTmxMap.h" />
+    <ClInclude Include="..\src\rapidxml\rapidxml.hpp" />
+    <ClInclude Include="..\src\rapidxml\rapidxml_iterators.hpp" />
+    <ClInclude Include="..\src\rapidxml\rapidxml_print.hpp" />
+    <ClInclude Include="..\src\rapidxml\rapidxml_utils.hpp" />
+    <ClInclude Include="..\src\LayerComponent.h" />
+    <ClInclude Include="..\src\SpriteManager.h" />
+    <ClInclude Include="..\src\RigidBodyComponent.h" />
+    <ClInclude Include="..\src\PhysicsManager.h" />
+    <ClInclude Include="..\src\PhysicsComponent.h" />
+    <ClInclude Include="..\src\HealthComponent.h" />
+    <ClInclude Include="..\src\BorderManager.h" />
+  </ItemGroup>
+</Project>
